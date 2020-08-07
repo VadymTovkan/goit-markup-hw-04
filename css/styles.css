@@ -1,0 +1,142 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --hover-color: #2196f3;
+  --background-button: #f5f4fa;
+  --background-color: #ffffff;
+}
+
+body {
+  color: #212121;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-list {
+  display: flex;
+  align-items: baseline;
+}
+
+.container {
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  align-items: center;
+}
+
+.container_2 {
+  margin-right: 30px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.container_4 {
+  margin-right: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_3 li {
+  margin-right: 30px;
+  margin-top: 30px;
+}
+.team_link {
+  margin-top: 16px;
+  display: flex;
+}
+.footer_ardess {
+  flex-direction: column;
+}
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* вторичный цвет фона #F5F4FA */
+
+.webstudio_header {
+  color: #2196f3;
+}
+
+.nav-list .navigation {
+  color: #212121;
+  margin-right: 50px;
+}
+
+.navigation:hover,
+.navigation:focus {
+  color: #2196f3;
+}
+
+.contacts-main-col .contacts {
+  color: #757575;
+  display: inline-flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: #2196f3;
+}
+
+.section_1_title {
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
+.section_1 {
+  color: #fff;
+  background: #2196f3;
+}
+
+.section_title {
+  color: #212121;
+  margin-top: 94px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.section2_title {
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+.section_title1 {
+  color: #212121;
+}
+
+.section_description {
+  color: #757575;
+}
+
+.section_4 li {
+  background: #f5f4fa;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+/* button */
+
+.button {
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.button:hover,
+.button:focus {
+  color: #fff;
+  background: #2196f3;
+}
+.footer {
+  color: #fff;
+  background: rgba(47, 48, 58, 0.8);
+}
