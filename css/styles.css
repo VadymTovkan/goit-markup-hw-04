@@ -85,7 +85,8 @@ ul {
 }
 
 .navigation:hover,
-.navigation:focus {
+.navigation:focus,
+.navigation:active {
   color: #2196f3;
 }
 
