@@ -9,6 +9,7 @@
 body {
   color: #212121;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 ul {
@@ -95,9 +96,15 @@ ul {
   margin-right: auto;
 }
 
+.contacts-main-col {
+  padding-left: 305px;
+}
 .contacts:hover,
 .contacts:focus {
   color: #2196f3;
+}
+.contacts {
+  padding-right: 30px;
 }
 
 .section_1_title {
@@ -143,16 +150,20 @@ ul {
 
 .section_title1 {
   color: #212121;
+  text-align: center;
 }
 
 .section_description {
   color: #757575;
+  text-align: center;
 }
 
 .section_4 {
   background-color: #f5f4fa;
   margin-right: 30px;
   margin-top: 30px;
+  padding-left: auto;
+  padding-right: auto;
 }
 
 /* button */
@@ -229,6 +240,7 @@ ul {
   border-radius: 4px;
   box-sizing: border-box;
   fill: #afb1b8;
+  padding: 20px;
 }
 
 .firm_icons:hover,
